@@ -78,3 +78,5 @@ for (const number of numbers) {
 		}
 	}
 }
+
+export {};
