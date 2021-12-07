@@ -13,9 +13,6 @@ for (let f of fishes) {
 	days[day]++;
 }
 
-let part1: number;
-let part2: number;
-
 for (let i = 0; i < 256 + 1; i++) {
 	console.log(
 		`Day ${i} (${
