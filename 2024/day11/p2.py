@@ -13,7 +13,7 @@ class Stone():
         return self.num == other.num
     
     def blink(self):
-        if self.is_zero(): return [Stone(1, self.mult)]
+        if self.num == 0: return [Stone(1, self.mult)]
         digits = str(self.num)
         num_digits = len(digits)
         if num_digits % 2 == 0: return [Stone(int(digits[:num_digits//2]), self.mult), Stone(int(digits[num_digits//2:]), self.mult)]
